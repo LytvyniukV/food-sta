@@ -1,0 +1,8 @@
+:root{
+    --color-main-white: #FEFEFE;
+    --color-main-text: #2C2C2C;
+    --color-brand-main: #FFE550;
+    --color-light-green: #BBF330;
+    --color-dark-green: #7EB101;
+    --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
