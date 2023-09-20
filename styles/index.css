@@ -2,3 +2,6 @@
 @import './base/common.css';
 @import './base/variables.css';
 @import './base/container.css';
+
+/* HEADER */
+@import './layouts/header.css';
