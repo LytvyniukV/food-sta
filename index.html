@@ -55,36 +55,112 @@
 
     <main>
       <!-- =====================HERO SECTION==================== -->
-
-      <section>
-        <div class="container hero">
-          <div class="hero-content-wrap">
-            <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
-            <p class="hero-text">
-              With just a few clicks, you can have your favorite meals delivered
-              straight to your doorstep, no matter where you are. Order now and
-              enjoy a hassle-free and delicious meal from the comfort of your
-              own home.
-            </p>
-            <button class="hero-btn" type="button" data-first-modal-open>
-              Order Now
-            </button>
+      <div class="sections-wrap-background">
+        <section>
+          <div class="container hero">
+            <div class="hero-content-wrap">
+              <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+              <p class="hero-text">
+                With just a few clicks, you can have your favorite meals
+                delivered straight to your doorstep, no matter where you are.
+                Order now and enjoy a hassle-free and delicious meal from the
+                comfort of your own home.
+              </p>
+              <button class="hero-btn" type="button" data-first-modal-open>
+                Order Now
+              </button>
+            </div>
+            <img
+              srcset="
+                ./images/hero/hero1-tablet.png      292w,
+                ./images/hero/hero1-tablet@2x.png   584w,
+                ./images/hero/hero1-desktop.png     528w,
+                ./images/hero/hero1-desktop@2x.png 1056w
+              "
+              sizes="(min-width: 1280px) 528px, (min-width: 768px) 292px"
+              src="./images/hero/hero1-tablet.png"
+              alt="dish"
+            />
           </div>
-          <img
-            srcset="
-              ./images/hero/hero1-tablet.png      292w,
-              ./images/hero/hero1-tablet@2x.png   584w,
-              ./images/hero/hero1-desktop.png     528w,
-              ./images/hero/hero1-desktop@2x.png 1056w
-            "
-            sizes="(min-width: 1280px) 528px, (min-width: 768px) 292px"
-            src="./images/hero/hero1-tablet.png"
-            alt="dish"
-          />
-        </div>
-      </section>
+        </section>
 
-      <!-- =====================/ HERO SECTION==================== -->
+        <!-- =====================/ HERO SECTION==================== -->
+
+        <!-- ===================OFFERS====================== -->
+
+        <section>
+          <div class="container offers">
+            <div class="img-border-wrap">
+              <div class="img-wrap">
+                <img
+                  srcset="
+                    ./images/offers/apple-mobile.png     202w,
+                    ./images/offers/apple-mobile@2x.png  404w,
+                    ./images/offers/apple-tablet.png     258w,
+                    ./images/offers/apple-tablet@2x.png  516w,
+                    ./images/offers/apple-desktop.png    396w,
+                    ./images/offers/apple-desktop@2x.png 792w
+                  "
+                  sizes="(min-width: 1280px) 396px, (min-width: 768px) 258px, (max-width: 767px) 202px"
+                  src="./images/offers/apple-mobile.png"
+                  alt="apple"
+                />
+              </div>
+            </div>
+            <div class="offers-content-wrap">
+              <h2 class="offers-title">What’s Special About Our Offerings</h2>
+              <p class="offers-main-text">
+                With our platform, you can browse through a diverse selection of
+                cuisines and local restaurants, and choose from a variety of
+                dishes that cater to your specific taste buds.
+              </p>
+              <ul class="offers-list list">
+                <li class="offers-items">
+                  <div class="offers-icon-wrap">
+                    <svg width="32" height="32">
+                      <use href="./images/icons.svg#icon-rocket"></use>
+                    </svg>
+                  </div>
+                  <h3 class="offers-item-title">Fasest Delivery</h3>
+                  <p class="offers-item-text">
+                    Our advanced logistics system and dedicated delivery
+                    partners ensure that your meals are delivered to you within
+                    30-minutes.
+                  </p>
+                </li>
+                <li class="offers-items">
+                  <div class="offers-icon-wrap">
+                    <svg width="32" height="32">
+                      <use href="./images/icons.svg#icon-touch"></use>
+                    </svg>
+                  </div>
+                  <h3 class="offers-item-title">Easy To Order</h3>
+                  <p class="offers-item-text">
+                    You can browse through a wide variety of cuisines and
+                    restaurants, select your favorite meals, and place your
+                    order in just a few clicks.
+                  </p>
+                </li>
+              </ul>
+              <button
+                class="offers-button"
+                type="button"
+                data-first-modal-open=""
+              >
+                Order Now
+              </button>
+              <a href="" class="offers-read-link link"
+                >Read More
+                <svg width="13" height="13">
+                  <use href="./images/icons.svg#icon-arrow"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===================/ OFFERS====================== -->
+      </div>
     </main>
   </body>
 </html>

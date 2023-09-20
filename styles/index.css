@@ -5,3 +5,9 @@
 
 /* HEADER */
 @import './layouts/header.css';
+
+/* HERO SECTION */
+@import './layouts/hero.css';
+
+/* OFFERS */
+@import './layouts/offers.css';
