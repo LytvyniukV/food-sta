@@ -1,0 +1,224 @@
+/* BACKGROUND */
+.footer-section {
+  box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.1);
+  background-image: url('/images/background/footer-back-mobile.png');
+  background-position: bottom;
+  background-size: 320px 619px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .footer-section {
+    background-image: url('/images/background/footer-back-mobile@2x.png');
+  }
+}
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+  .footer-section {
+    background-image: url('/images/background/footer-back-tablet.png');
+    background-size: 768px 506px;
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .footer-section {
+    background-image: url('/images/background/footer-back-tablet@2x.png');
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1280px) {
+  .footer-section {
+    background-image: url('/images/background/footer-back-desktop.png');
+    background-size: 1280px 395px;
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .footer-section {
+    background-image: url('/images/background/footer-back-desktop@2x.png');
+  }
+}
+/* / BACKGROUND */
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-top-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+.navigation-footer-wrap {
+  display: flex;
+  gap: 46px;
+  justify-content: flex-start;
+}
+
+.nav-list-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav-links-footer {
+  color: #000;
+  font-style: normal;
+  line-height: normal;
+}
+
+.subscribe-footer-text {
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.footer-input {
+  border-radius: 30px;
+  border: 0.854px solid var(--color-brand-main);
+  background: #fff;
+  padding: 12px 61.5px 12px 12px;
+  width: 100%;
+  height: 42px;
+  outline: transparent;
+  margin-bottom: 20px;
+  transition: border-color var(--timing-function);
+}
+
+.footer-input:focus {
+  border-color: var(--color-dark-green);
+}
+
+.footer-input::placeholder {
+  color: #505050;
+  font-size: 12px;
+}
+
+.footer-btn {
+  width: 103px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: 0.854px solid var(--color-dark-green);
+  background: #fff;
+  margin-bottom: 24px;
+  transition: border var(--timing-function),
+    background-color var(--timing-function);
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  border: none;
+  background-color: var(--color-light-green);
+}
+
+.footer-form-text {
+  font-size: 10px;
+  line-height: normal;
+}
+
+.privacy-link {
+  color: var(--color-dark-green);
+  font-size: 10px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.privacy-footer-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.privacy-text {
+font-size: 10px;
+line-height: normal;
+text-align: center;
+}
+
+/* ==========================TABLET==================== */
+
+@media screen and (min-width: 768px) {
+    
+    
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .footer-top-container{
+        margin-bottom: 100px;
+    }
+    
+    .navigation-footer-wrap {
+        align-items: center;
+    }
+
+    .logo-link-footer {
+        margin-right: 114px;
+    }
+    
+    .nav-list-footer {
+        flex-direction: row;
+        gap: 28px;
+    }
+    
+  
+    .subscribe-footer-text {
+        margin-bottom: 12px;
+    }
+
+    .footer-input {
+        width: 279px;
+        display: inline-flex;
+        margin-right: 13px;
+    }
+    .footer-btn {
+        display: inline-flex;
+    }
+    
+    
+    .privacy-container-footer {
+        display: flex;
+       
+    }
+    .privacy-footer-list {
+        justify-content: flex-start;
+        gap: 20px;
+        align-items: center;
+    }
+    .privacy-text {
+        margin-left: auto;
+    }
+}
+
+/* =============================DESKTOP====================== */
+
+@media screen and (min-width: 1280px) {
+   
+    .footer-top-container {
+        margin-bottom: 80px;
+        flex-direction: row;
+        align-items: flex-start;
+
+    }
+    
+    .logo-link-footer {
+        margin-right: 148px;
+    }
+    
+   
+    .form-container-footer {
+        margin-left: auto;
+    }
+   
+}

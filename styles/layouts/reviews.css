@@ -1,0 +1,117 @@
+.sections-container-bottom {
+  background-image: url(/images/background/bottom-back-mobile.png);
+  background-position: top;
+  background-size: 320px 790px;
+  background-repeat: no-repeat;
+}
+
+.reviews {
+  padding-bottom: 10px;
+  padding-top: 60px;
+}
+
+.review-title {
+  font-size: 28px;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.review-text {
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+.review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.review-items {
+  padding: 8px;
+  border-radius: 0px 30px 30px 30px;
+  background-color: var(--color-main-white);
+}
+.customer-review {
+    margin-top: 28px;
+    margin-bottom: 40px;
+font-size: 16px;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.review-item-content-info-wrap {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.customer-wrap{
+    border-right: 1px solid var(--color-dark-green);
+    padding-right: 14px;
+}
+
+
+.customer-name {
+font-weight: 500;
+margin-bottom: 2px;
+}
+
+/* =====================TABLET================== */
+
+@media screen and (min-width: 768px) {
+    .sections-container-bottom {
+        background-image: url(/images/background/bottom-back-tablet.png);
+        background-size: 768px 544px;
+    }
+    
+    .reviews {
+        padding-bottom: 23px;
+    }
+
+    .review-title {
+        font-size: 42px;
+    }
+    .review-text {
+        font-size: 16px;
+    }
+
+    .review-list {
+        flex-direction: row;
+        gap: 32px;
+    }
+    
+    .review-items {
+        padding: 12px;
+    }
+
+    .customer-review {
+        font-size: 18px;
+    }
+
+}
+
+/* ==========================DESKTOP================== */
+
+@media screen and (min-width: 1280px) {
+    .sections-container-bottom {
+        background-image: url(/images/background/bottom-back-desktop.png);
+        background-size: 1280px 647px;
+    }
+    
+    .reviews {
+        padding-bottom: 67px;
+        padding-top: 100px;
+        padding-right: 123px;
+    }
+    
+    .review-list {
+        gap: 139px;
+    }
+    
+    .review-items {
+        padding: 14px;
+    }
+    
+}

@@ -16,20 +16,24 @@
 .header-btn {
   display: none;
 }
-.mobile-menu-btn {
-  margin-left: auto;
-  border: none;
-  background-color: transparent;
-  line-height: 0;
-}
-.mobile-menu-icon {
-  fill: var(--color-dark-green);
-  transition: fill var(--timing-function);
+
+@media screen and (max-width: 767px) {
+  .mobile-menu-btn {
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+    line-height: 0;
+  }
+  .mobile-menu-icon {
+    fill: var(--color-dark-green);
+    transition: fill var(--timing-function);
+  }
+  
+  .mobile-menu-icon:focus {
+    fill: var(--color-brand-main);
+  }
 }
 
-.mobile-menu-icon:focus {
-  fill: var(--color-brand-main);
-}
 
 /* ==================TABLET================ */
 @media screen and (min-width: 768px) {

@@ -11,3 +11,21 @@
 
 /* OFFERS */
 @import './layouts/offers.css';
+
+/* MENU */
+@import './layouts/menu.css';
+
+/* REVIEWS */
+@import './layouts/reviews.css';
+
+/* SUBSCRIBE */
+@import './layouts/subscribe.css';
+
+/* FOOTER */
+@import './layouts/footer.css';
+
+/* MODAL */
+@import './layouts/modal.css';
+
+/* MOBILE MENU */
+@import './layouts/mobile-menu.css';
