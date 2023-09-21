@@ -1,5 +1,5 @@
 .sections-wrap-background {
-  background-image: url(/images/background/top-back-mobile.png);
+  background-image: url('../../images/background/top-back-mobile.png');
   background-size: 320px 1122px;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -114,7 +114,7 @@
 
 @media screen and (min-width: 768px) {
   .sections-wrap-background {
-    background-image: url(/images/background/top-back-tablet.png);
+    background-image: url('../../images/background/top-back-tablet.png');
     background-size: 768px 1140px;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@
 
 @media screen and (min-width: 1280px) {
   .sections-wrap-background {
-    background-image: url(/images/background/top-back-desktop.png);
+    background-image: url('../../images/background/top-back-desktop.png');
     background-size: 1280px 824px;
     background-position: bottom;
     background-repeat: no-repeat;

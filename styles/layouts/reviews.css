@@ -1,5 +1,5 @@
 .sections-container-bottom {
-  background-image: url(/images/background/bottom-back-mobile.png);
+  background-image: url('../../images/background/bottom-back-mobile.png');
   background-position: top;
   background-size: 320px 790px;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@ margin-bottom: 2px;
 
 @media screen and (min-width: 768px) {
     .sections-container-bottom {
-        background-image: url(/images/background/bottom-back-tablet.png);
+        background-image: url('../../images/background/bottom-back-tablet.png');
         background-size: 768px 544px;
     }
     
@@ -96,7 +96,7 @@ margin-bottom: 2px;
 
 @media screen and (min-width: 1280px) {
     .sections-container-bottom {
-        background-image: url(/images/background/bottom-back-desktop.png);
+        background-image: url('../../images/background/bottom-back-desktop.png');
         background-size: 1280px 647px;
     }
     
